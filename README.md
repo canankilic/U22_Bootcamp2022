@@ -58,7 +58,7 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 - İlk update 11.06.2023 - [Güncel Durum] (https://github.com/murat-urmaz/U22_Bootcamp2023/blob/c7ef38cc0de38e338b4cd9de430d829500c69fb7/ProjectManagement/Sprint1Documents/Backlog1.png) 
 
 - **Sprint board update**: Sprint board screenshotları: 
-![11.06.2023 Güncel Durum](https://raw.githubusercontent.com/murat-urmaz/U22_Bootcamp2023/blob/c7ef38cc0de38e338b4cd9de430d829500c69fb7/ProjectManagement/Sprint1Documents/Backlog1.png) 
+![11.06.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2023/blob/c7ef38cc0de38e338b4cd9de430d829500c69fb7/ProjectManagement/Sprint1Documents/Backlog1.png) 
 
 
 - **Ürün Durumu**: 
