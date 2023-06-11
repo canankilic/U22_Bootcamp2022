@@ -68,8 +68,6 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 
 ## Product Backlog URL
 
-[Flutter Team 52 Miro Backlog Board](https://miro.com/app/board/uXjVO4kRs2w=/)
-
 ---
 
 # Sprint 2
