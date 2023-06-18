@@ -60,14 +60,18 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 - 11.06.2023 Güncel Durum: 
 ![11.06.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2023/blob/c7ef38cc0de38e338b4cd9de430d829500c69fb7/ProjectManagement/Sprint1Documents/Backlog1.png)
 
-- 19.06.2023 Güncel Durum: 
-![19.06.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/55de7d2e307778b5b18d746c11b1e4b990985e03/ProjectManagement/Sprint1Documents/Backlog2.png) 
+- 18.06.2023 Güncel Durum: 
+![18.06.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/55de7d2e307778b5b18d746c11b1e4b990985e03/ProjectManagement/Sprint1Documents/Backlog2.png) 
 
 
-- **Ürün Durumu**: 
-- **Sprint Review**: 
+- **Ürün Durumu**: İlk sprintte tasarım ve planlama yoğun ilerlenmesinden ve tamamlanması gereken puanın gerisinde kalındığından dolayı anlık ürün durumu ile ilgili görsel bulunmamaktadır. Öte yandan hikaye çalışmaları ve referans ortam çalışmaları esnasında ortaya çıkan yapay zekaya üretilmiş bazı ortam ve karakter tasarımları aşağıdaki gibidir.
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS5.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS3.jpg)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS2.jpg)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS1.png) 
+- **Sprint Review**: İlk sprintin tamamlanmasının ardından yapılacak toplantı sonrası güncellenecektir.
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective:** İlk sprintin tamamlanmasının ardından yapılacak toplantı sonrası güncellenecektir.
  
 
 
