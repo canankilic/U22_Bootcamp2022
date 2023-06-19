@@ -69,10 +69,17 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 - ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS3.jpg)
 - ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS2.jpg)
 - ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/11569e39cd586a2cd56c0493fcb482dc37274e73/ProjectManagement/Sprint1Documents/ProductSS1.png) 
-- **Sprint Review**: İlk sprintin tamamlanmasının ardından yapılacak toplantı sonrası güncellenecektir.
+- **Sprint Review**: İlk sprint için koyduğumuz 100 puanlık hedefin maalesef gerisinde kaldık. Ekip arkadaşlarımızın günlük takvimlerinin ilk sprint süresince çok yoğun olmasından dolayı bu tahmin edilebilir riskti ancak kalan yükün sonraki sprintlere dağıtılarak ve daha sıkı bir çalışmayla dengeleneceğini düşünmekteyiz. Ekip içerisindeki iş yoğunluklarını göz önüne alarak ilk sprintte tasarım ve planlama odaklı ilerleyerek projemizin ana hatlarını ve izlememiz gereken yolu belirledik. Her ne kadar paralelde farklı zamanlarda tüm ekip arkadaşlarımız ile iletişimde olsak da bu görüşmeler çoğunlukla arama veya konferans konuşma şeklinde spontane gerçekleştiği için Daily Scrum kayıtlarını almakta bu sprint içerisinde biraz sorun yaşadık. Ancak bu takım içi iletişimimizde herhangi bir soruna sebep olmadı. Bundan sonraki sprintler için düzenli olarak Whatsapp üzerinden yazılı Daily Scrum girdileri sağlayarak ilerleyeceğiz.
+  Katılımcılar: Tüm Ekip
 
-- **Sprint Retrospective:** İlk sprintin tamamlanmasının ardından yapılacak toplantı sonrası güncellenecektir.
- 
+- **Sprint Retrospective:** 
+  - İlk sprint için tasarımı ön planda tutarak bu alana yoğunlaştık.
+  - Product Backlog için Trello üzerinde kapsamlı bir sistem kurduk.
+  - İlk sprintteki düşük tempomuzu diğer iki sprintte daha yüksek ve düzenli bir tempo ile telafi etmeye odaklandık.
+  - Ekip içi konferans toplantılar için Discord, yazılı iletişim için Whatsapp kullanmaya karar verdik.
+  - İkinci sprint için çalışma alanlarını belirledik.
+  - Görsel dil ve oyun sanat tasarımı üzerinde fikir birliğine ulaştık
+    Katılımcılar: Tüm Ekip
 
 
 ---
