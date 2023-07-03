@@ -88,20 +88,30 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 
 ## Product Backlog URL
 
+[Unity Team 22 Trello Backlog Board](https://trello.com/w/oua2022bootcampteamunity22)
 ---
 
 # Sprint 2
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 175 Puan
 
-- **Daily Scrum**:
+- **Daily Scrum**: Daily Scrumları bayram haftası haricinde Whatsapp üzerinden ilerlettik. Genel olarak yeni taska geçildiğinde veya bir problem ile karşılaşıldığında birbirimizi haberdar ettik. Aynı task için çalışmaya devam ederken her gün durum güncellemesi yapmaya gerek duymadık. 
 
 - **Sprint board update**:
 
 
 - **Ürün Durumu**: 
-- **Sprint Review**: 
+- **Sprint Review**: Bu sprintte daha çok geliştirme odaklı ilerlemeyi planlamıştık ancak sprintin neredeyse yarısından fazlasının bayram tatiline denk gelmesinden dolayı yeterli verimi alamadık. Projemizin sprint board'unda her ne kadar tamamlanmış işler az görünse de pek çoğu bitmek üzere ya da bitti ancak henüz durumu güncellenmedi. Bu sprintte yaklaşık olarak 120 puanlık bir iş tamamladık. Kalan son sprintte daha çok ürünü bütünleştirmeye odaklanıp gerekirse belirli kısımları kısarak bootcamp sonuna çalışır bir ürün çıkarmayı hedefliyoruz.
+
+   Katılımcılar: Tüm Ekip
+  
 - **Sprint Retrospective:**
+  - İş takip sistemimizi daha verimli hale getirdik
+  - Takım içi iletişimimizi ve daily scrumlarımızı arttırdık
+  - Geliştirmenin ana hatlarına odaklanarak ilerleme kat ettik
+  - Son sprint için hedeflerimizi belirledik
+
+     Katılımcılar: Tüm Ekip
 ---
 
 ## Product Backlog URL
