@@ -95,12 +95,21 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 175 Puan
 
-- **Daily Scrum**: Daily Scrumları bayram haftası haricinde Whatsapp üzerinden ilerlettik. Genel olarak yeni taska geçildiğinde veya bir problem ile karşılaşıldığında birbirimizi haberdar ettik. Aynı task için çalışmaya devam ederken her gün durum güncellemesi yapmaya gerek duymadık. 
+- **Daily Scrum**: Daily Scrumları bayram haftası haricinde Whatsapp üzerinden ilerlettik. Genel olarak yeni taska geçildiğinde veya bir problem ile karşılaşıldığında birbirimizi haberdar ettik. Aynı task için çalışmaya devam ederken her gün durum güncellemesi yapmaya gerek duymadık.
+  
+- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/Scrum1Sprint2.png)
+- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/Scrum2Sprint2.png)
+- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/Scrum3Sprint2.png)
 
 - **Sprint board update**:
+![03.07.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/Sprint2Backlog1.png)
 
-
-- **Ürün Durumu**: 
+- **Ürün Durumu**: Bir yandan hikayemizi tamamlarken bir yandan da bölüm tasarımı ve mekaniklere odaklandık.
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/SS1.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/SS2.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/SS3.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/09a8a9687793d88ee698b28e1e50eb93425781c6/ProjectManagement/Sprint2Documents/GifSS.gif)
+  
 - **Sprint Review**: Bu sprintte daha çok geliştirme odaklı ilerlemeyi planlamıştık ancak sprintin neredeyse yarısından fazlasının bayram tatiline denk gelmesinden dolayı yeterli verimi alamadık. Projemizin sprint board'unda her ne kadar tamamlanmış işler az görünse de pek çoğu bitmek üzere ya da bitti ancak henüz durumu güncellenmedi. Bu sprintte yaklaşık olarak 120 puanlık bir iş tamamladık. Kalan son sprintte daha çok ürünü bütünleştirmeye odaklanıp gerekirse belirli kısımları kısarak bootcamp sonuna çalışır bir ürün çıkarmayı hedefliyoruz.
 
    Katılımcılar: Tüm Ekip
