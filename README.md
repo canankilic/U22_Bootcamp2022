@@ -92,8 +92,11 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 ---
 
 # Sprint 2
-
+- **Sprint Notları**: Product Backlog URL uzantısı üzerinden projenin çalışma alanına erişebilir. Çalışma alanında istenilen sprint ile ilgili board seçilerek istenen sprintin backlog board'u görüntülenebilir.
+  
 - **Sprint içinde tamamlanması tahmin edilen puan**: 175 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. İlk sprintte hedeflenen 100 puanlık hedefin 50 puan gerisinde kalındığı için backlogda toplam 350 puanlık iş kalmıştır. Bu sprintte işlerin hem tasarım hem geliştirme odaklı olarak eşit dağıtılıp 180 puanlık iş tamamlanması hedeflenmiştir. Tamamlanamayan hedefler son sprinte aktarılacak ve önem sırasına göre kritik olanlara öncelik verilecektir.
 
 - **Daily Scrum**: Daily Scrumları bayram haftası haricinde Whatsapp üzerinden ilerlettik. Genel olarak yeni taska geçildiğinde veya bir problem ile karşılaşıldığında birbirimizi haberdar ettik. Aynı task için çalışmaya devam ederken her gün durum güncellemesi yapmaya gerek duymadık.
   
