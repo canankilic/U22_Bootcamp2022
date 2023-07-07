@@ -29,9 +29,9 @@ public class MoveScript : MonoBehaviour
         float moveVertical = 0.0f;
 
         
-        moveHorizontal = Input.GetAxisRaw("Horizontal");
-        moveVertical = Input.GetAxisRaw("Vertical");
-        movement = new Vector3(-moveHorizontal, 0.0f, -moveVertical);
+        moveHorizontal = Input.GetAxisRaw("Vertical");
+        moveVertical = Input.GetAxisRaw("Horizontal");
+        movement = new Vector3(moveHorizontal, 0.0f, -moveVertical);
             
         
         float targetMovement;
