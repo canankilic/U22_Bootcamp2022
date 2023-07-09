@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 265408973}
-  m_IndirectSpecularColor: {r: 0.1515925, g: 0.24171793, b: 0.3170648, a: 1}
+  m_IndirectSpecularColor: {r: 0.15159383, g: 0.24171793, b: 0.3170648, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3894,6 +3894,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 456548, guid: 5b3cc55650f95e34797ed0af9c57110a, type: 3}
   m_PrefabInstance: {fileID: 538582989}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &549407571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549407573}
+  - component: {fileID: 549407572}
+  m_Layer: 0
+  m_Name: "D\xF6nme"
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &549407572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549407571}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.839121, y: 3.5410156, z: 0}
+  m_Center: {x: -2.419569, y: -1.8862305, z: -0.42189184}
+--- !u!4 &549407573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549407571}
+  m_LocalRotation: {x: -0, y: 0.38872173, z: -0, w: 0.92135525}
+  m_LocalPosition: {x: -8924.18, y: 7037.73, z: 33309.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 45.75, z: 0}
 --- !u!1001 &550135873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17497,6 +17550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   Dolly: {fileID: 4016349410513219661}
+  TurnCorner: {fileID: 549407571}
 --- !u!4 &2192344228551782662
 Transform:
   m_ObjectHideFlags: 0
@@ -18272,6 +18326,7 @@ GameObject:
   - component: {fileID: 688105411222614455}
   - component: {fileID: 5149765942995040366}
   - component: {fileID: 7613611559110616873}
+  - component: {fileID: 7613611559110616874}
   m_Layer: 0
   m_Name: Dolly Track
   m_TagString: Untagged
@@ -18590,6 +18645,7 @@ GameObject:
   - component: {fileID: 3567214754773709012}
   - component: {fileID: 2129895183489571700}
   - component: {fileID: 6443678824869521904}
+  - component: {fileID: 6443678824869521905}
   m_Layer: 0
   m_Name: Walking
   m_TagString: Untagged
@@ -19170,6 +19226,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &6443678824869521905
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4635946193105037348}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.18359375
+  m_Height: 1.7001758
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9550879, z: 0.0078125}
 --- !u!4 &6477190313673194495
 Transform:
   m_ObjectHideFlags: 0
@@ -19460,6 +19539,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Character: {fileID: 4635946193105037348}
+  Turned: 0
+--- !u!95 &7613611559110616874
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4016349410513219661}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e06666e3a7b9b4840a0be8af87cad2cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7614719199882662199
 GameObject:
   m_ObjectHideFlags: 0
