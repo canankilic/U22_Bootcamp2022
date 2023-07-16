@@ -128,12 +128,15 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 
 ## Product Backlog URL
 
+[Unity Team 22 Trello Backlog Board](https://trello.com/w/oua2022bootcampteamunity22)
 ---
 
 # Sprint 3
+- **Sprint Notları**: Son sprint olmasından dolayı ekibimiz için en yoğun sprint oldu. Hızlı aksiyon alabilmek ve özellikleri seri olarak entegre edebilmek için çoğunlukla birden fazla iletişim hattı üzerinden temasta kaldık bundan dolayı Daily Scrum yapımız biraz karıştı ancak süreç boyunca kullandığımız WhatsApp grubumuzun dökümünü aşağıda bulabilirsiniz. 
 
-- **Sprint içinde tamamlanması tahmin edilen puan**:
+- **Sprint içinde tamamlanması tahmin edilen puan**: 230 Puan
 
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. İlk iki sprintte toplamda hedeflenen 275 puanlık hedefin 105 puan gerisinde kalındığı için backlogda toplam 230 puanlık iş kalmıştır. Bu sprintte işlerin geliştirme ve entegrasyon odaklı olarak eşit dağıtılıp 230 puanlık iş tamamlanması hedeflenmiştir. Tamamlanamayan hedeflerden önem sırasına göre kritik olanlara öncelik verilecektir.
 
 - **Daily Scrum**: 
 
