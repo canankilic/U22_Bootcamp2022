@@ -140,12 +140,11 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 
 - **Daily Scrum**: Daily Scrumları son sprint için birden fazla platform üzerinden yürüttük. Mümkün olan her zaman aralığında Discord üzerinde konferans konuşmalar ile toplanarak geliştirdiğimiz özellikleri entegre ettik. Bunlar dışında kalan sürelerde de ekip olarak son durumdan güncel haberdar olmak için WhatsApp üzerinden iletişim kurduk.
 
-  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum1.jpeg" width="300" height="200" alt="Image">
-- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum1.jpeg)
-- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum2.jpeg)
-- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum3.jpeg)
-- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum4.jpeg)
-- ![DailyScrum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum5.jpeg)
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum1.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum2.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum3.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum4.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum5.jpeg" width="175" height="320" alt="Image">
 
 - **Sprint board update**:
   ![16.07.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/Sprint3SS.png)
