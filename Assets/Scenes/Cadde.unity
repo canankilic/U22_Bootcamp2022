@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 265408973}
-  m_IndirectSpecularColor: {r: 0.1515925, g: 0.24171793, b: 0.3170648, a: 1}
+  m_IndirectSpecularColor: {r: 0.15159383, g: 0.24171793, b: 0.3170648, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -379,6 +379,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4533943726500818, guid: 2224b63330275e5478ef024b2913f937, type: 3}
   m_PrefabInstance: {fileID: 25254329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &53257650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
+  m_PrefabInstance: {fileID: 1157380713}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &54375614
 PrefabInstance:
@@ -1803,6 +1808,110 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4859891124178544, guid: e70233268e8d3e64187fc14a41cacef0, type: 3}
   m_PrefabInstance: {fileID: 196692969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &210860776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210860780}
+  - component: {fileID: 210860779}
+  - component: {fileID: 210860778}
+  - component: {fileID: 210860777}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &210860777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210860776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &210860778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210860776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &210860779
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210860776}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &210860780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210860776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1131019772}
+  - {fileID: 956832600}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &227259144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1943,7 +2052,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3862472228c660949b839f6da2c6ea18, type: 2}
     - target: {fileID: 919132149155446097, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
       propertyPath: m_Name
-      value: Sad Idle
+      value: Anabell
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
+      propertyPath: m_TagString
+      value: Anabell
       objectReference: {fileID: 0}
     - target: {fileID: 3851148295848648182, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1952,7 +2065,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1677977582}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1677977581}
   m_SourcePrefab: {fileID: 100100000, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
 --- !u!4 &234327903 stripped
 Transform:
@@ -3402,7 +3521,7 @@ Transform:
   - {fileID: 603635988}
   - {fileID: 1373581702}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463318219
 GameObject:
@@ -3439,7 +3558,7 @@ Transform:
   - {fileID: 1666085334}
   - {fileID: 1320738856}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &466414933
 PrefabInstance:
@@ -3573,12 +3692,22 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3862472228c660949b839f6da2c6ea18, type: 2}
     - target: {fileID: 919132149155446097, guid: bf14cb875aebfa3439525780adf27062, type: 3}
       propertyPath: m_Name
-      value: Unarmed Idle 01
+      value: Ezkiel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf14cb875aebfa3439525780adf27062, type: 3}
+      propertyPath: m_TagString
+      value: Ezkiel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf14cb875aebfa3439525780adf27062, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 618272658}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf14cb875aebfa3439525780adf27062, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 618272657}
   m_SourcePrefab: {fileID: 100100000, guid: bf14cb875aebfa3439525780adf27062, type: 3}
 --- !u!4 &468335049 stripped
 Transform:
@@ -4973,6 +5102,59 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e54e802f8173bc2439a47cf2e441d581, type: 3}
+--- !u!1 &618272656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bf14cb875aebfa3439525780adf27062, type: 3}
+  m_PrefabInstance: {fileID: 468335048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &618272657
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618272656}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &618272658
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618272656}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6015623, y: 2.2060547, z: 2.300633}
+  m_Center: {x: -0.06149757, y: 0.60302734, z: 0.6503166}
 --- !u!1001 &619355145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8274,6 +8456,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 419662, guid: 496fa247adc61d44ebaeaf9d72671287, type: 3}
   m_PrefabInstance: {fileID: 955839055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &956832599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 956832600}
+  - component: {fileID: 956832602}
+  - component: {fileID: 956832601}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &956832600
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956832599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2095740516}
+  m_Father: {fileID: 210860780}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -273, y: 36.468323}
+  m_SizeDelta: {x: -743.8574, y: -262.5219}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &956832601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956832599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &956832602
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956832599}
+  m_CullTransparentMesh: 1
 --- !u!1001 &962665636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9408,6 +9667,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 444218, guid: 69b3d20c177508d43a1c6f09b448d3ea, type: 3}
   m_PrefabInstance: {fileID: 1127853087}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1131019771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1131019772}
+  - component: {fileID: 1131019774}
+  - component: {fileID: 1131019773}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1131019772
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131019771}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.61, z: 0.61}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 210860780}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 49, y: -56}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1131019773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131019771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1131019774
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131019771}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1132928883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10032,7 +10367,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3862472228c660949b839f6da2c6ea18, type: 2}
     - target: {fileID: 919132149155446097, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
       propertyPath: m_Name
-      value: Standing Idle
+      value: Isabelle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
+      propertyPath: m_TagString
+      value: Isabelle
       objectReference: {fileID: 0}
     - target: {fileID: 4083171560036875027, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -10041,13 +10380,67 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1157380715}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1157380716}
   m_SourcePrefab: {fileID: 100100000, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
 --- !u!4 &1157380714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51bdae4423bf1e144948dec9d83f72a7, type: 3}
   m_PrefabInstance: {fileID: 1157380713}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1157380715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53257650}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6015623, y: 2.2060547, z: 2.300633}
+  m_Center: {x: -0.06149757, y: 0.60302734, z: 0.6503166}
+--- !u!54 &1157380716
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53257650}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1163251517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11945,7 +12338,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3862472228c660949b839f6da2c6ea18, type: 2}
     - target: {fileID: 919132149155446097, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
       propertyPath: m_Name
-      value: Cocky Head Turn
+      value: Cliff
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
+      propertyPath: m_TagString
+      value: Cliff
       objectReference: {fileID: 0}
     - target: {fileID: 1312681742142987658, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11978,7 +12375,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844674597}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844674596}
   m_SourcePrefab: {fileID: 100100000, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
 --- !u!1001 &1439860944
 PrefabInstance:
@@ -12661,6 +13064,74 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4953652439784952, guid: 45374165b7b045b498462bc2d3987a31, type: 3}
   m_PrefabInstance: {fileID: 1510880756}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511759871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511759874}
+  - component: {fileID: 1511759873}
+  - component: {fileID: 1511759872}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1511759872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511759871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1511759873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511759871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1511759874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511759871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1516826961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13881,7 +14352,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3862472228c660949b839f6da2c6ea18, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
       propertyPath: m_Name
-      value: Breathing Idle
+      value: Adrian
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
+      propertyPath: m_TagString
+      value: Adrian
       objectReference: {fileID: 0}
     - target: {fileID: 3102197598461991335, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13898,7 +14373,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803914070}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803914069}
   m_SourcePrefab: {fileID: 100100000, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
 --- !u!4 &1666085334 stripped
 Transform:
@@ -14119,6 +14600,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 444218, guid: 69b3d20c177508d43a1c6f09b448d3ea, type: 3}
   m_PrefabInstance: {fileID: 1675028198}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1677977580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d50cbc1f01e70514988a886ebe0bcaf2, type: 3}
+  m_PrefabInstance: {fileID: 234327902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1677977581
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677977580}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &1677977582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677977580}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6015623, y: 2.2060547, z: 2.300633}
+  m_Center: {x: -0.06149757, y: 0.60302734, z: 0.6503166}
 --- !u!1001 &1723591905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14876,6 +15410,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4379673244704792, guid: 1be61187b5d765449be824463642cb0f, type: 3}
   m_PrefabInstance: {fileID: 1795584177}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1803914068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37d326fc2fc598843b98f0bd01284531, type: 3}
+  m_PrefabInstance: {fileID: 1666085333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1803914069
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803914068}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &1803914070
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803914068}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6015623, y: 2.2060547, z: 2.300633}
+  m_Center: {x: -0.06149757, y: 0.60302734, z: 0.6503166}
 --- !u!1001 &1820316924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15340,6 +15927,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4759262865471542, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
   m_PrefabInstance: {fileID: 1844554951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1844674594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 73411d7647bd1cd4199435391ddb02d8, type: 3}
+  m_PrefabInstance: {fileID: 1423095066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1844674596
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844674594}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &1844674597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844674594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6015623, y: 2.2060547, z: 2.300633}
+  m_Center: {x: -0.06149757, y: 0.60302734, z: 0.6503166}
 --- !u!1001 &1850935689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16086,6 +16726,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: -0.7071068
       objectReference: {fileID: 0}
+    - target: {fileID: 854516847279189985, guid: fde0875cf98e79b4e80061308653f177, type: 3}
+      propertyPath: panel
+      value: 
+      objectReference: {fileID: 956832599}
+    - target: {fileID: 854516847279189985, guid: fde0875cf98e79b4e80061308653f177, type: 3}
+      propertyPath: "\u0131nteract"
+      value: 
+      objectReference: {fileID: 1131019771}
     - target: {fileID: 2681666111794126800, guid: fde0875cf98e79b4e80061308653f177, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17572,6 +18220,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2095740515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2095740516}
+  - component: {fileID: 2095740518}
+  - component: {fileID: 2095740517}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2095740516
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095740515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 956832600}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00013351, y: 0.0004921}
+  m_SizeDelta: {x: 357.14, y: 256.48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2095740517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095740515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &2095740518
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095740515}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2096206379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18246,3 +18974,204 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 868a5c362785db141839739301970073, type: 3}
+--- !u!114 &8554213130514001336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213130514001342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a93516e295e7044a7ab3c26c6276f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnnabelDialogues:
+  - "David: Selam, nas\u0131ls\u0131n Anabelle? Anabelle: (\u015Ea\u015Fk\u0131n
+    ve sinirli) \u0130yi de\u011Filim Ren. Hi\xE7 iyi de\u011Filim ama sen fazla
+    iyi g\xF6r\xFCn\xFCyorsun. "
+  - "David: (Tersleyerek) Seninle Alex\u2019in \xF6l\xFCm\xFC hakk\u0131nda konu\u015Fmak
+    istemiyorum. Sadece Alex ile neden g\xF6r\xFC\u015Ft\xFC\u011F\xFCn\xFCz\xFC
+    \xF6\u011Frenmem gerekiyor.  Anabelle: \u015Eimdide dedektif mi oldun? Daha kendi
+    sorunlar\u0131n\u0131 \xE7\xF6zemeyen, \xE7ipli bir dedektif.  "
+  - "David: Ne demek istiyorsun biraz daha a\xE7ar m\u0131s\u0131n? Anabelle: Beni
+    gayet iyi anlad\u0131n. Art\u0131k seninle konu\u015Fmak istemiyorum. Kendini
+    benim \xFCzerinde tutarak Alex\u2019e kar\u015F\u0131 olan sevgimi nas\u0131l
+    sorgulars\u0131n. Senin g\xF6z\xFCnde \u015F\xFCpheli olmak ve \u015Fu dedektiflik
+    oyununa kat\u0131lmakla hi\xE7 ilgilenmiyorum. Beni yaln\u0131z b\u0131rak. "
+  - "Ren: Umar\u0131m senin hakk\u0131nda bildiklerimden fazlas\u0131n\u0131 biliyorsundur
+    Anabelle! Anabelle: S-sen benim hakk\u0131mda ne biliyor olabilirsin ki?  "
+  - "Ren: O k\xFC\xE7\xFCk kafan\u0131n i\xE7erisinde d\xFC\u015F\xFCnd\xFC\u011F\xFCn
+    \xE7arp\u0131k d\xFC\u015F\xFCncelerini bilmem seni korkutmu\u015Fa benziyor
+    Anabelle. \u015Eimdi sorular\u0131m\u0131 cevaplamaya ba\u015Flasan senin i\xE7in
+    daha iyi olur.  Anabelle: (Hafif\xE7e s\u0131r\u0131tarak) Pek\xE2l\xE2 Ren.
+    Belki de \u015F\xF6yle sormal\u0131y\u0131m \u015Fu anda Ren ile mi konu\u015Fuyorum?
+    Yoksa Alex\u2019e a\u015F\u0131k olan Lemi ile mi ya da her \u015Feyle e\u011Flenen
+    komik \xE7ocuk Henry. Kimsin Ren ? "
+  - "Lemi: Tan\u0131\u015Ft\u0131\u011F\u0131m\u0131za sevindim. Tan\u0131mana \u015Fa\u015F\u0131rd\u0131m.
+    Alex\u2019in beni kabullenmesi uzun zaman ald\u0131. Onu kaybetmemek i\xE7in
+    \u0131\u015F\u0131\u011F\u0131mdan vazge\xE7tim. D\u0131\u015Far\u0131 \xE7\u0131kmad\u0131m.
+    (Tehtidkar bir tav\u0131rla) Ancak senin i\xE7in \u0131\u015F\u0131\u011Fa d\xF6nd\xFCm.
+    Anabelle: (\u015Ea\u015Fk\u0131nl\u0131kla ve korkarak) Dinle, seni \xE7ok iyi
+    anl\u0131yorum. Sevdi\u011Fin ki\u015Fi i\xE7in bir \u015Feyleri feda etmek ne
+    demektir iyi bilirim "
+  - "Lemi: Hi\xE7bir \u015Feyi bildi\u011Fin yok! Seni hi\xE7bir zaman sevmedim.
+    Ona hi\xE7 iyi gelmedin ve \u015Fimdide, \u015F-\u015Fimdi de... Ona nas\u0131l
+    k\u0131yd\u0131n? T\xFCm olanlar\u0131n sebebi sensin! Anabelle: Hay\u0131r.
+    Onu seviyorum... (Korkmu\u015F bir \u015Fekilde) Ren, Ren tamam yeter bu kadar.
+    Her \u015Feyi anlataca\u011F\u0131m. L\xFCtfen.  "
+  - " Ren: Lemi ile konu\u015Fmak isteyen sen de\u011Fil miydin? Ne bekliyordun ki
+    beraber pijama partisi verece\u011Finizi mi. O di\u015Fi bir aslan ve doru\u011Fa
+    ula\u015Fmas\u0131na \u015Fu kadar kalm\u0131\u015Ft\u0131. \u015Eimdi her \u015Feyi
+    anlat. I\u015F\u0131\u011F\u0131 alabildim ancak Lemi hala m\xFCcadele i\xE7erisinde. 
+    Anabelle: L\xFCtfen, art\u0131k onunla konu\u015Fmak istemiyorum. Alex\u2019i
+    ne kadar sevdi\u011Fimi biliyorsun ancak son zamanlarda aram\u0131z\u0131n k\xF6t\xFC
+    oldu\u011Fu da bir ger\xE7ekti. Beni b\u0131rakmas\u0131ndan \xF6ylesine korktum
+    ki onu beni b\u0131rakamayaca\u011F\u0131 bir ger\xE7ekli\u011Fe sokmal\u0131yd\u0131m.
+    Kimsenin bizi rahats\u0131z edemeyece\u011Fi bir yerde bulu\u015Fmak istedim.
+    Amac\u0131m... (Utanarak) Onun \xE7ocu\u011Funu do\u011Furmakt\u0131. "
+  - " Ren: (Hen\xFCz Alex\u2019in \xF6l\xFCm\xFCn\xFC kabullenememi\u015F gibi g\xF6z\xFCk\xFCyor.
+    \u0130nkar kabulleni\u015Fin ilk a\u015Famas\u0131. \xDCstelik bu kadar aptalca
+    planlar kurabilmesi ger\xE7ekten ilgin\xE7.) Anl\u0131yorum. Anabelle: De\u011Fil
+    mi? Sonuna kadar beraberce mutlu ya\u015Fayacakt\u0131k. Ahh akl\u0131ma daha
+    \xF6nce gelseydi hi\xE7bir \u015Fey b\xF6yle olmazd\u0131. "
+  - " Ren: H\u0131-h\u0131... Ren: San\u0131r\u0131m Alex\u2019in \xFCzerindeki parf\xFCm
+    kokusunun da sebebi buydu. Bulu\u015Ftu\u011Fumuz gece ger\xE7ekten \u0131\u0131\u0131,
+    a\u011F\u0131r kokuyordu. "
+  - "Anabelle: Evet, ona \u015Fal\u0131m\u0131 vermi\u015Ftim ve \xFCzerine parf\xFCm\xFCm\xFC
+    boca etmi\u015Ftim. Hem di\u011Fer k\u0131zlar\u0131 uzak tutacak hem de her
+    zaman beni hat\u0131rlamas\u0131n\u0131 sa\u011Flayacakt\u0131. (H\u0131\xE7k\u0131rd\u0131,
+    bu a\u011Flamaya kar\u015F\u0131 son direni\u015Fti.)  Henry: Her zaman. (K\u0131k\u0131rdad\u0131)
+    H\u0131h\u0131h\u0131. \xD6l\xFCm bizi ay\u0131rana dek. "
+  - "Anabelle:(Afallad\u0131 ancak hemen anlad\u0131) En son konu\u015Fmak istedi\u011Fim
+    ki\u015Fi sensin komik \xE7ocuk. Karanl\u0131\u011F\u0131na d\xF6n.  Ren: (\u0130\xE7imde,
+    derinlerde bir his uyand\u0131. Patlamaya haz\u0131rlanan bir volkan gibi bir
+    his. Kaslar\u0131m vardan var etme arzusuyla geriliyor. Bu his \xE7ok yabanc\u0131
+    ayn\u0131 zamanda tan\u0131d\u0131k geliyor. Bana neler oluyor hi\xE7 bilmiyorum.)
+    Art\u0131k gitmeliyim Anabelle. "
+  - "Anabelle: (Sesizce ba\u015F\u0131 ile onaylad\u0131.) "
+  IsabelleDialogues:
+  - "David: Merhaba \u0130sabella. \u0130sabella: Merhaba Ren. B\xF6ylesine bir g\xFCn
+    i\xE7in fazla iyi g\xF6z\xFCk\xFCyorsun.  "
+  - "David: Ya\u015Fad\u0131\u011F\u0131m \u015Feylere verece\u011Fim tepki beni
+    ilgilendirir. Nas\u0131l hissetti\u011Fimi bilmiyorsun.  \u0130sabelle: \xD6z\xFCr
+    dilerim. Sadece bu olay beni \xE7ok etkiledi. D\xFC\u015F\xFCncesizce s\xF6yledim "
+  - "David: Her neyse. Anabelle\u2019in bana anlatmayaca\u011F\u0131 bir \u015Fey
+    oldu\u011Funu d\xFC\u015F\xFCn\xFCyorum. Ge\xE7en gece Alex ile bulu\u015Ftu\u011Fumuzda
+    Anabelle\u2019in onunla g\xF6r\xFC\u015Fmek i\xE7in fazla \u0131srarc\u0131 davrand\u0131\u011F\u0131n\u0131
+    ve kimsenin onlar\u0131 rahats\u0131z edemeyecekleri bir yerde bulu\u015Fmak
+    istedi\u011Fini s\xF6ylemi\u015Fti. Ayn\u0131 zamanda konu\u015Ftuklar\u0131n\u0131
+    \xF6zellikle bana anlatmamas\u0131 konusunda tembihlemi\u015F. Alex\u2019te sadece
+    bulu\u015Ftuklar\u0131n\u0131 s\xF6yledi. Bense a\u015F\u0131klar aras\u0131nda
+    olur b\xF6yle diyerek \xFCstelemedim. Ancak t\xFCm bu olanlardan sonra bu bo\u015Fluk
+    beni Alex i\xE7in bir \u015Feyler yapmaktan uzakla\u015Ft\u0131r\u0131yor gibi
+    hissediyorum.  \u0130sabelle: B\u0131rak ac\u0131s\u0131n\u0131 ya\u015Fas\u0131n
+    k\u0131z. (\u0130\xE7 \xE7ekerek) Sonu\xE7ta herkes sevdi\u011Fi adam\u0131 bir
+    kez kaybeder. Ben hari\xE7 herkes... "
+  - "David: Senin i\xE7in ne kadar m\xFCcadeleci oldu\u011Fuma ben bile \u015Fa\u015F\u0131r\u0131yorum
+    Isabelle. Alex\u2019in katilinin pe\u015Finde olmam\u0131n bana zarar vermesinden
+    korktu\u011Funu anl\u0131yorum ancak bu i\u015F bitmeden durmayaca\u011F\u0131m\u0131
+    herkesten iyi biliyorsun. Bana yard\u0131mc\u0131 ol l\xFCtfen. \u0130sabelle:
+    Ren, Anabelle, Alex ile bulu\u015Ftu. Senin duyman\u0131 istemiyordu. Hatta bana
+    bile tam olarak anlatmad\u0131 ancak onu zihninde sonsuza kadar g\xFCzelle\u015Ftirecek
+    bir \u015Fey yapaca\u011F\u0131ndan bahsetti "
+  - "David: Tek dedi\u011Fi bu muydu?  \u0130sabelle: Hay\u0131r, ondan bir par\xE7a
+    istedi\u011Fini ve Alex\u2019in onay\u0131 \xF6nemli olmaks\u0131z\u0131n istedi\u011Fini
+    alaca\u011F\u0131ndan bahsetti. "
+  CliffDilogues:
+  - "Ren: Hey, Cliff!  Cliff: Ren, senin o saf arkada\u015F\u0131na olanlar\u0131
+    duydum. Daha \xF6nce de s\xF6yledim dostum, sesini kesmeyi \xF6\u011Frenmeliydi.
+    Her do\u011Fruyu her yerde s\xF6yleyemezsin. \xD6zellikle do\u011Frular seninse.  "
+  - "Ren: (\u0130\xE7 \xE7eker) Ona ne oldu\u011Fu hakk\u0131nda bir fikrin var m\u0131? 
+    Cliff: Birisinin i\u015Fine kar\u0131\u015Fm\u0131\u015Ft\u0131r. (S\u0131r\u0131tarak)
+    Belki de tan\u0131d\u0131\u011F\u0131n birinin. Bug\xFCn olmasa yar\u0131n olacakt\u0131.
+    Anl\u0131yorsun de\u011Fil mi dostum. "
+  - "David:(Zaten ya\u015Fanm\u0131\u015F bir vah\u015Feti \xFCzerine almak Cliff
+    gibiler i\xE7in stat\xFCko zincirinde kazan\xE7 sa\u011Flamak demek. Ancak korku
+    emellere ula\u015Fmada g\xFC\xE7l\xFC bir enstr\xFCman olabilir.) (Ciddi ve tehditk\xE2r
+    bir tav\u0131rla) Cliff olacaklar\u0131n sonunu d\xFC\u015F\xFCnmede yetersiz
+    oldu\u011Funu biliyorum ancak bu tavr\u0131n\u0131 devam ettireceksen senin i\xE7in
+    o kabaday\u0131 arkada\u015Flar\u0131n\u0131n \xFCzerlerine almak isteyece\u011Fi
+    harika bir son d\xFC\u015F\xFCnmeye ba\u015Flayaca\u011F\u0131m. Bildiklerini
+    anlat ya da o k\xFC\xE7\xFCk kafandan ge\xE7en \u015Feyleri dile getirmeyi kes!"
+  - "Cliff: (\xDCrperdi ancak kabaday\u0131 tavr\u0131ndan \xF6d\xFCn vermeyecek
+    bir tav\u0131r i\xE7erisinde) Ren, ac\u0131n\u0131 anl\u0131yorum ve seni severim.
+    O y\xFCzden sana a\xE7\u0131k\xE7a s\xF6yleyece\u011Fim. Baz\u0131 \u015Feyler
+    g\xF6rd\xFCm. Tren raylar\u0131nda. Ancak \u015Fu anda konu\u015Fmak i\xE7in
+    do\u011Fru yer ve zaman de\u011Fil. Bilirsin ispiyoncular pek sevilmez. Adrian:
+    Pek\xE2l\xE2, daha sonra bu konuyu konu\u015Fmak i\xE7in seni bulaca\u011F\u0131m
+    Cliff. "
+  AdrianDialogues:
+  - "Adrian: Arkada\u015F\u0131n hak etti\u011Fini buldu! Ren: Seni a\u015Fa\u011F\u0131l\u0131k
+    onun hakk\u0131nda nas\u0131l b\xF6yle konu\u015Fursun "
+  - "Adrian: (Hafif bir tebess\xFCmle) Sadece konu\u015Fmakla kalmad\u0131m Ren...
+    Lemi: (Kekelemeye ba\u015Flad\u0131) S-sen, sen... Bunu nas\u0131l yapabildin?  "
+  - "Henry: (G\xFClerek) S\xF6ylesene Adrian, sahiden senin gibi sevgisinin pe\u015Finden
+    bile beceriksizce ko\u015Fan birisi, Alex gibi birisine nas\u0131l zarar verebilir.
+    Hahaha. Adrian: (\u0130rkildi) Sen bir hastas\u0131n, e\u011Fer yolumdan \xE7ekilmezsen
+    sonun Alex gibi olacak. (Titrek bir sesle) B-belki de \xE7ok daha k\xF6t\xFCs\xFC... "
+  - "Henry: Belki de sevgili Anabelle ile tekrar bulu\u015Fmal\u0131y\u0131m. Bakal\u0131m
+    bende Alex\u2019ten bir esinti yakalayabilecek mi? Hahaha. \u0130yice bakmas\u0131na
+    m\xFCsaade edece\u011Fimden hi\xE7 \u015F\xFCphen olmas\u0131n zavall\u0131."
+  EzkielDialogues:
+  - "Ren (Ezekiel\u2019i G\xF6r\xFCnce Kendi Kendine): Ahh, \xE7ok konu\u015Fmasa
+    bari.Ezekiel: Dostum, senin i\xE7in yapabilece\u011Fim bir \u015Fey var m\u0131?
+    \u0130lgin\xE7 bir adam oldu\u011Funu biliyorum ancak b\xF6ylesine bir vah\u015Fet
+    seni bile insan etmi\u015Ftir... Alex \xF6yle bir \xF6l\xFCm\xFC hak edecek birisi
+    de\u011Fildi."
+  - "Ren: Alex \xF6-\xF6ld\xFC m\xFC? Ne sa\xE7mal\u0131yorsun sen ona az \xF6nce
+    mesaj att\u0131m. Ezekiel: Mesaj\u0131na geri d\xF6n\xFC\u015F alabildin mi? "
+  - "Ren: Hay\u0131r, ancak bu \xF6ld\xFC\u011F\xFC anlam\u0131na m\u0131 geliyor?
+    Hahahah ge\xE7en g\xFCn bana att\u0131\u011F\u0131n mesaja geri d\xF6nm\xFC\u015F
+    m\xFCyd\xFCm ihtiyar? Belki de \u015Fu an bir ceset ile konu\u015Fuyosundur.
+    Ezekiel: D\xFCn gece metro istasyonunda bulmu\u015Flar ve kesinlikle bir ba\u015Fkas\u0131
+    yapm\u0131\u015F. Bak\u0131m oldu\u011Fu i\xE7in oraya fazla u\u011Fram\u0131yorlar
+    biliyorsun. Cevrede ki polisler dikkatini \xE7ekmedi mi? Ren, ger\xE7ekten \xFCzg\xFCn\xFCm
+    dostum ancak ger\xE7ek bu. Bir \u015Feye ihtiyac\u0131n olursa s\xF6ylemen yeterli. "
+  - "Ren: (Soluk al\u0131\u015F-veri\u015Fi yava\u015F h\u0131zland\u0131 ancak kesikle\u015Fti)
+    Alex, d-d-dostum..."
+--- !u!114 &8554213130514001337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213130514001342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c083b1144d682045a82268da6ab502a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8554213130514001342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8554213130514001343}
+  - component: {fileID: 8554213130514001337}
+  - component: {fileID: 8554213130514001336}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8554213130514001343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213130514001342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.236279, y: 3.7627137, z: 0.22689867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

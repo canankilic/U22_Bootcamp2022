@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8554213131057614901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8554213131057614900}
+  - component: {fileID: 8554213131057614898}
+  - component: {fileID: 8554213131057614899}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8554213131057614900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213131057614901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.236279, y: 3.7627137, z: 0.22689867}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8554213131057614898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213131057614901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c083b1144d682045a82268da6ab502a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8554213131057614899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8554213131057614901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a93516e295e7044a7ab3c26c6276f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnnabelDialogues:
+  - "David: Selam, nas\u0131ls\u0131n Anabelle? Anabelle: (\u015Ea\u015Fk\u0131n
+    ve sinirli) \u0130yi de\u011Filim Ren. Hi\xE7 iyi de\u011Filim ama sen fazla
+    iyi g\xF6r\xFCn\xFCyorsun. "
+  - "David: (Tersleyerek) Seninle Alex\u2019in \xF6l\xFCm\xFC hakk\u0131nda konu\u015Fmak
+    istemiyorum. Sadece Alex ile neden g\xF6r\xFC\u015Ft\xFC\u011F\xFCn\xFCz\xFC
+    \xF6\u011Frenmem gerekiyor.  Anabelle: \u015Eimdide dedektif mi oldun? Daha kendi
+    sorunlar\u0131n\u0131 \xE7\xF6zemeyen, \xE7ipli bir dedektif.  "
+  - "David: Ne demek istiyorsun biraz daha a\xE7ar m\u0131s\u0131n? Anabelle: Beni
+    gayet iyi anlad\u0131n. Art\u0131k seninle konu\u015Fmak istemiyorum. Kendini
+    benim \xFCzerinde tutarak Alex\u2019e kar\u015F\u0131 olan sevgimi nas\u0131l
+    sorgulars\u0131n. Senin g\xF6z\xFCnde \u015F\xFCpheli olmak ve \u015Fu dedektiflik
+    oyununa kat\u0131lmakla hi\xE7 ilgilenmiyorum. Beni yaln\u0131z b\u0131rak. "
+  - "Ren: Umar\u0131m senin hakk\u0131nda bildiklerimden fazlas\u0131n\u0131 biliyorsundur
+    Anabelle! Anabelle: S-sen benim hakk\u0131mda ne biliyor olabilirsin ki?  "
+  - "Ren: O k\xFC\xE7\xFCk kafan\u0131n i\xE7erisinde d\xFC\u015F\xFCnd\xFC\u011F\xFCn
+    \xE7arp\u0131k d\xFC\u015F\xFCncelerini bilmem seni korkutmu\u015Fa benziyor
+    Anabelle. \u015Eimdi sorular\u0131m\u0131 cevaplamaya ba\u015Flasan senin i\xE7in
+    daha iyi olur.  Anabelle: (Hafif\xE7e s\u0131r\u0131tarak) Pek\xE2l\xE2 Ren.
+    Belki de \u015F\xF6yle sormal\u0131y\u0131m \u015Fu anda Ren ile mi konu\u015Fuyorum?
+    Yoksa Alex\u2019e a\u015F\u0131k olan Lemi ile mi ya da her \u015Feyle e\u011Flenen
+    komik \xE7ocuk Henry. Kimsin Ren ? "
+  - "Lemi: Tan\u0131\u015Ft\u0131\u011F\u0131m\u0131za sevindim. Tan\u0131mana \u015Fa\u015F\u0131rd\u0131m.
+    Alex\u2019in beni kabullenmesi uzun zaman ald\u0131. Onu kaybetmemek i\xE7in
+    \u0131\u015F\u0131\u011F\u0131mdan vazge\xE7tim. D\u0131\u015Far\u0131 \xE7\u0131kmad\u0131m.
+    (Tehtidkar bir tav\u0131rla) Ancak senin i\xE7in \u0131\u015F\u0131\u011Fa d\xF6nd\xFCm.
+    Anabelle: (\u015Ea\u015Fk\u0131nl\u0131kla ve korkarak) Dinle, seni \xE7ok iyi
+    anl\u0131yorum. Sevdi\u011Fin ki\u015Fi i\xE7in bir \u015Feyleri feda etmek ne
+    demektir iyi bilirim "
+  - "Lemi: Hi\xE7bir \u015Feyi bildi\u011Fin yok! Seni hi\xE7bir zaman sevmedim.
+    Ona hi\xE7 iyi gelmedin ve \u015Fimdide, \u015F-\u015Fimdi de... Ona nas\u0131l
+    k\u0131yd\u0131n? T\xFCm olanlar\u0131n sebebi sensin! Anabelle: Hay\u0131r.
+    Onu seviyorum... (Korkmu\u015F bir \u015Fekilde) Ren, Ren tamam yeter bu kadar.
+    Her \u015Feyi anlataca\u011F\u0131m. L\xFCtfen.  "
+  - " Ren: Lemi ile konu\u015Fmak isteyen sen de\u011Fil miydin? Ne bekliyordun ki
+    beraber pijama partisi verece\u011Finizi mi. O di\u015Fi bir aslan ve doru\u011Fa
+    ula\u015Fmas\u0131na \u015Fu kadar kalm\u0131\u015Ft\u0131. \u015Eimdi her \u015Feyi
+    anlat. I\u015F\u0131\u011F\u0131 alabildim ancak Lemi hala m\xFCcadele i\xE7erisinde. 
+    Anabelle: L\xFCtfen, art\u0131k onunla konu\u015Fmak istemiyorum. Alex\u2019i
+    ne kadar sevdi\u011Fimi biliyorsun ancak son zamanlarda aram\u0131z\u0131n k\xF6t\xFC
+    oldu\u011Fu da bir ger\xE7ekti. Beni b\u0131rakmas\u0131ndan \xF6ylesine korktum
+    ki onu beni b\u0131rakamayaca\u011F\u0131 bir ger\xE7ekli\u011Fe sokmal\u0131yd\u0131m.
+    Kimsenin bizi rahats\u0131z edemeyece\u011Fi bir yerde bulu\u015Fmak istedim.
+    Amac\u0131m... (Utanarak) Onun \xE7ocu\u011Funu do\u011Furmakt\u0131. "
+  - " Ren: (Hen\xFCz Alex\u2019in \xF6l\xFCm\xFCn\xFC kabullenememi\u015F gibi g\xF6z\xFCk\xFCyor.
+    \u0130nkar kabulleni\u015Fin ilk a\u015Famas\u0131. \xDCstelik bu kadar aptalca
+    planlar kurabilmesi ger\xE7ekten ilgin\xE7.) Anl\u0131yorum. Anabelle: De\u011Fil
+    mi? Sonuna kadar beraberce mutlu ya\u015Fayacakt\u0131k. Ahh akl\u0131ma daha
+    \xF6nce gelseydi hi\xE7bir \u015Fey b\xF6yle olmazd\u0131. "
+  - " Ren: H\u0131-h\u0131... Ren: San\u0131r\u0131m Alex\u2019in \xFCzerindeki parf\xFCm
+    kokusunun da sebebi buydu. Bulu\u015Ftu\u011Fumuz gece ger\xE7ekten \u0131\u0131\u0131,
+    a\u011F\u0131r kokuyordu. "
+  - "Anabelle: Evet, ona \u015Fal\u0131m\u0131 vermi\u015Ftim ve \xFCzerine parf\xFCm\xFCm\xFC
+    boca etmi\u015Ftim. Hem di\u011Fer k\u0131zlar\u0131 uzak tutacak hem de her
+    zaman beni hat\u0131rlamas\u0131n\u0131 sa\u011Flayacakt\u0131. (H\u0131\xE7k\u0131rd\u0131,
+    bu a\u011Flamaya kar\u015F\u0131 son direni\u015Fti.)  Henry: Her zaman. (K\u0131k\u0131rdad\u0131)
+    H\u0131h\u0131h\u0131. \xD6l\xFCm bizi ay\u0131rana dek. "
+  - "Anabelle:(Afallad\u0131 ancak hemen anlad\u0131) En son konu\u015Fmak istedi\u011Fim
+    ki\u015Fi sensin komik \xE7ocuk. Karanl\u0131\u011F\u0131na d\xF6n.  Ren: (\u0130\xE7imde,
+    derinlerde bir his uyand\u0131. Patlamaya haz\u0131rlanan bir volkan gibi bir
+    his. Kaslar\u0131m vardan var etme arzusuyla geriliyor. Bu his \xE7ok yabanc\u0131
+    ayn\u0131 zamanda tan\u0131d\u0131k geliyor. Bana neler oluyor hi\xE7 bilmiyorum.)
+    Art\u0131k gitmeliyim Anabelle. "
+  - "Anabelle: (Sesizce ba\u015F\u0131 ile onaylad\u0131.) "
+  IsabelleDialogues:
+  - "David: Merhaba \u0130sabella. \u0130sabella: Merhaba Ren. B\xF6ylesine bir g\xFCn
+    i\xE7in fazla iyi g\xF6z\xFCk\xFCyorsun.  "
+  - "David: Ya\u015Fad\u0131\u011F\u0131m \u015Feylere verece\u011Fim tepki beni
+    ilgilendirir. Nas\u0131l hissetti\u011Fimi bilmiyorsun.  \u0130sabelle: \xD6z\xFCr
+    dilerim. Sadece bu olay beni \xE7ok etkiledi. D\xFC\u015F\xFCncesizce s\xF6yledim "
+  - "David: Her neyse. Anabelle\u2019in bana anlatmayaca\u011F\u0131 bir \u015Fey
+    oldu\u011Funu d\xFC\u015F\xFCn\xFCyorum. Ge\xE7en gece Alex ile bulu\u015Ftu\u011Fumuzda
+    Anabelle\u2019in onunla g\xF6r\xFC\u015Fmek i\xE7in fazla \u0131srarc\u0131 davrand\u0131\u011F\u0131n\u0131
+    ve kimsenin onlar\u0131 rahats\u0131z edemeyecekleri bir yerde bulu\u015Fmak
+    istedi\u011Fini s\xF6ylemi\u015Fti. Ayn\u0131 zamanda konu\u015Ftuklar\u0131n\u0131
+    \xF6zellikle bana anlatmamas\u0131 konusunda tembihlemi\u015F. Alex\u2019te sadece
+    bulu\u015Ftuklar\u0131n\u0131 s\xF6yledi. Bense a\u015F\u0131klar aras\u0131nda
+    olur b\xF6yle diyerek \xFCstelemedim. Ancak t\xFCm bu olanlardan sonra bu bo\u015Fluk
+    beni Alex i\xE7in bir \u015Feyler yapmaktan uzakla\u015Ft\u0131r\u0131yor gibi
+    hissediyorum.  \u0130sabelle: B\u0131rak ac\u0131s\u0131n\u0131 ya\u015Fas\u0131n
+    k\u0131z. (\u0130\xE7 \xE7ekerek) Sonu\xE7ta herkes sevdi\u011Fi adam\u0131 bir
+    kez kaybeder. Ben hari\xE7 herkes... "
+  - "David: Senin i\xE7in ne kadar m\xFCcadeleci oldu\u011Fuma ben bile \u015Fa\u015F\u0131r\u0131yorum
+    Isabelle. Alex\u2019in katilinin pe\u015Finde olmam\u0131n bana zarar vermesinden
+    korktu\u011Funu anl\u0131yorum ancak bu i\u015F bitmeden durmayaca\u011F\u0131m\u0131
+    herkesten iyi biliyorsun. Bana yard\u0131mc\u0131 ol l\xFCtfen. \u0130sabelle:
+    Ren, Anabelle, Alex ile bulu\u015Ftu. Senin duyman\u0131 istemiyordu. Hatta bana
+    bile tam olarak anlatmad\u0131 ancak onu zihninde sonsuza kadar g\xFCzelle\u015Ftirecek
+    bir \u015Fey yapaca\u011F\u0131ndan bahsetti "
+  - "David: Tek dedi\u011Fi bu muydu?  \u0130sabelle: Hay\u0131r, ondan bir par\xE7a
+    istedi\u011Fini ve Alex\u2019in onay\u0131 \xF6nemli olmaks\u0131z\u0131n istedi\u011Fini
+    alaca\u011F\u0131ndan bahsetti. "
+  - "Buna Eri\u015Femezsin"
+  CliffDilogues:
+  - "Ren: Hey, Cliff!  Cliff: Ren, senin o saf arkada\u015F\u0131na olanlar\u0131
+    duydum. Daha \xF6nce de s\xF6yledim dostum, sesini kesmeyi \xF6\u011Frenmeliydi.
+    Her do\u011Fruyu her yerde s\xF6yleyemezsin. \xD6zellikle do\u011Frular seninse.  "
+  - "Ren: (\u0130\xE7 \xE7eker) Ona ne oldu\u011Fu hakk\u0131nda bir fikrin var m\u0131? 
+    Cliff: Birisinin i\u015Fine kar\u0131\u015Fm\u0131\u015Ft\u0131r. (S\u0131r\u0131tarak)
+    Belki de tan\u0131d\u0131\u011F\u0131n birinin. Bug\xFCn olmasa yar\u0131n olacakt\u0131.
+    Anl\u0131yorsun de\u011Fil mi dostum. "
+  - "David:(Zaten ya\u015Fanm\u0131\u015F bir vah\u015Feti \xFCzerine almak Cliff
+    gibiler i\xE7in stat\xFCko zincirinde kazan\xE7 sa\u011Flamak demek. Ancak korku
+    emellere ula\u015Fmada g\xFC\xE7l\xFC bir enstr\xFCman olabilir.) (Ciddi ve tehditk\xE2r
+    bir tav\u0131rla) Cliff olacaklar\u0131n sonunu d\xFC\u015F\xFCnmede yetersiz
+    oldu\u011Funu biliyorum ancak bu tavr\u0131n\u0131 devam ettireceksen senin i\xE7in
+    o kabaday\u0131 arkada\u015Flar\u0131n\u0131n \xFCzerlerine almak isteyece\u011Fi
+    harika bir son d\xFC\u015F\xFCnmeye ba\u015Flayaca\u011F\u0131m. Bildiklerini
+    anlat ya da o k\xFC\xE7\xFCk kafandan ge\xE7en \u015Feyleri dile getirmeyi kes!"
+  - "Cliff: (\xDCrperdi ancak kabaday\u0131 tavr\u0131ndan \xF6d\xFCn vermeyecek
+    bir tav\u0131r i\xE7erisinde) Ren, ac\u0131n\u0131 anl\u0131yorum ve seni severim.
+    O y\xFCzden sana a\xE7\u0131k\xE7a s\xF6yleyece\u011Fim. Baz\u0131 \u015Feyler
+    g\xF6rd\xFCm. Tren raylar\u0131nda. Ancak \u015Fu anda konu\u015Fmak i\xE7in
+    do\u011Fru yer ve zaman de\u011Fil. Bilirsin ispiyoncular pek sevilmez. Adrian:
+    Pek\xE2l\xE2, daha sonra bu konuyu konu\u015Fmak i\xE7in seni bulaca\u011F\u0131m
+    Cliff. "
+  AdrianDialogues:
+  - "Adrian: Arkada\u015F\u0131n hak etti\u011Fini buldu! Ren: Seni a\u015Fa\u011F\u0131l\u0131k
+    onun hakk\u0131nda nas\u0131l b\xF6yle konu\u015Fursun "
+  - "Adrian: (Hafif bir tebess\xFCmle) Sadece konu\u015Fmakla kalmad\u0131m Ren...
+    Lemi: (Kekelemeye ba\u015Flad\u0131) S-sen, sen... Bunu nas\u0131l yapabildin?  "
+  - "Henry: (G\xFClerek) S\xF6ylesene Adrian, sahiden senin gibi sevgisinin pe\u015Finden
+    bile beceriksizce ko\u015Fan birisi, Alex gibi birisine nas\u0131l zarar verebilir.
+    Hahaha. Adrian: (\u0130rkildi) Sen bir hastas\u0131n, e\u011Fer yolumdan \xE7ekilmezsen
+    sonun Alex gibi olacak. (Titrek bir sesle) B-belki de \xE7ok daha k\xF6t\xFCs\xFC... "
+  - "Henry: Belki de sevgili Anabelle ile tekrar bulu\u015Fmal\u0131y\u0131m. Bakal\u0131m
+    bende Alex\u2019ten bir esinti yakalayabilecek mi? Hahaha. \u0130yice bakmas\u0131na
+    m\xFCsaade edece\u011Fimden hi\xE7 \u015F\xFCphen olmas\u0131n zavall\u0131."
+  EzkielDialogues:
+  - "Ren (Ezekiel\u2019i G\xF6r\xFCnce Kendi Kendine): Ahh, \xE7ok konu\u015Fmasa
+    bari.Ezekiel: Dostum, senin i\xE7in yapabilece\u011Fim bir \u015Fey var m\u0131?
+    \u0130lgin\xE7 bir adam oldu\u011Funu biliyorum ancak b\xF6ylesine bir vah\u015Fet
+    seni bile insan etmi\u015Ftir... Alex \xF6yle bir \xF6l\xFCm\xFC hak edecek birisi
+    de\u011Fildi."
+  - "Ren: Alex \xF6-\xF6ld\xFC m\xFC? Ne sa\xE7mal\u0131yorsun sen ona az \xF6nce
+    mesaj att\u0131m. Ezekiel: Mesaj\u0131na geri d\xF6n\xFC\u015F alabildin mi? "
+  - "Ren: Hay\u0131r, ancak bu \xF6ld\xFC\u011F\xFC anlam\u0131na m\u0131 geliyor?
+    Hahahah ge\xE7en g\xFCn bana att\u0131\u011F\u0131n mesaja geri d\xF6nm\xFC\u015F
+    m\xFCyd\xFCm ihtiyar? Belki de \u015Fu an bir ceset ile konu\u015Fuyosundur.
+    Ezekiel: D\xFCn gece metro istasyonunda bulmu\u015Flar ve kesinlikle bir ba\u015Fkas\u0131
+    yapm\u0131\u015F. Bak\u0131m oldu\u011Fu i\xE7in oraya fazla u\u011Fram\u0131yorlar
+    biliyorsun. Cevrede ki polisler dikkatini \xE7ekmedi mi? Ren, ger\xE7ekten \xFCzg\xFCn\xFCm
+    dostum ancak ger\xE7ek bu. Bir \u015Feye ihtiyac\u0131n olursa s\xF6ylemen yeterli. "
+  - "Ren: (Soluk al\u0131\u015F-veri\u015Fi yava\u015F h\u0131zland\u0131 ancak kesikle\u015Fti)
+    Alex, d-d-dostum..."

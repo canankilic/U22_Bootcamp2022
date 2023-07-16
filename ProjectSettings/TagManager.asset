@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Tabela
+  - Anabell
+  - Isabelle
+  - Adrian
+  - Cliff
+  - Ezkiel
   layers:
   - Default
   - TransparentFX
