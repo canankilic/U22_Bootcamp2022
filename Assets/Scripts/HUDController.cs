@@ -87,4 +87,8 @@ public class HUDController : MonoBehaviour
     {
         EndPanelAnimator.SetBool("IsEndPanelOpened", false);
     }
+
+    public void SetDialogText(string DialogText){
+        DialogHandlerRef.WriteText( DialogText );
+    }
 }

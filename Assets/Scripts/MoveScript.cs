@@ -21,6 +21,7 @@ public class MoveScript : MonoBehaviour
     
     public GameObject ınteract;
     public GameObject panel;
+    public HUDController CurrentHUDController;
     
     private bool isNearAnabell = false;
     private bool isNearIsabelle = false;
@@ -81,8 +82,12 @@ public class MoveScript : MonoBehaviour
                     }
                 }
                 string dialogue = DialogueManager.Instance.GetDialogue("Annabel");
-                panel.GetComponentInChildren<Text>().text = dialogue;
-                panel.SetActive(true);
+                CurrentHUDController.ShowDialog();
+                CurrentHUDController.SetDialogText(dialogue);
+                
+               // panel.GetComponentInChildren<Text>().text = dialogue;
+                //panel.SetActive(true);
+
                 if (conversationState.TalkedWithAnnabel[2] && !conversationState.TalkedWithIsabelle[4])
                 {
                     
@@ -96,6 +101,7 @@ public class MoveScript : MonoBehaviour
                     
                     conversationState.AnnabelDialogNumber++;
                 }
+                
                 
             }
             else if (isNearIsabelle)
@@ -207,8 +213,13 @@ public class MoveScript : MonoBehaviour
                     }
                 }
                 string dialogue = DialogueManager.Instance.GetDialogue("Ezkiel");
-                panel.GetComponentInChildren<Text>().text = dialogue;
-                panel.SetActive(true);
+                
+                CurrentHUDController.ShowDialog();
+                CurrentHUDController.SetDialogText(dialogue);
+                
+                //panel.GetComponentInChildren<Text>().text = dialogue;
+                //panel.SetActive(true);
+                
                 if (!conversationState.SecondDialog && conversationState.TalkedWithEzkiel[3])
                 {
                     
