@@ -3126,17 +3126,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-    in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis
-    unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-    beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-    voluptatem sequi nesciunt.
+  m_text: Tam bir akbaba. Zevkleri asagilik olarak tarif edilebilir. Negatif enerjiden
+    besleniyor denilebilir. Yine de bazi etik ve ahlaki sinirlara sahip, toplumun
+    onayi onun icin onemli. Bu sebeple genelde olaylari kendi sucu veya niyetini
+    belli edecek sekilde aktarmali. Korkak birisidir. Kendine herhangi bir acidan
+    zarar gelebilecek bir sey olmasindan kacinir. Tum bunlarin uzerine inandirmak
+    adina fazla konusur.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 37c5a780dbd471c4cb74be9fbb391114, type: 2}
   m_sharedMaterial: {fileID: 2067123486692206858, guid: 37c5a780dbd471c4cb74be9fbb391114, type: 2}
@@ -4946,12 +4941,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characters:
-  - Name: 
-    Gender: 
-    Origin: 
-    Height: 
-    Weight: 
-    Story: 
+  - Name: Annabel
+    Gender: "Kad\u0131n"
+    Origin: ABD
+    Height: 160 cm
+    Weight: 52 kg
+    Story: "Annabel Alex\u2019in uzun yillarca beraber oldugu sevgilisi. Alex, iliskilerinin
+      baslarinda Annabel\u2019e cok duskundu fakat zaman ilerledikce onun karakterinin
+      degismesiyle uzaklasmaya ve sogumaya basladi. Belli bir yerden sonra da yollari
+      tamamen ayrildi. Annabel bu ayriligi kabul etmedi ve surekli baskici tavirlariyla
+      Alex ile olan iliskisini devam ettirmek istedi. Alex zoraki bir sekilde surekli
+      Annabel ile konusmak zorunda kaldi. Olay gecesi son gorusmeleri yasandi ve
+      Alex\u2019in uzerinde Annabel\u2019in surekli kullandigi leylak parfumunun
+      kokusu kaldi "
+  - Name: Isabelle
+    Gender: "Kad\u0131n"
+    Origin: Kanada
+    Height: 162 cm
+    Weight: 47 kg
+    Story: "Isabella siyah sacli, sacinin onu kahkullu ve beyaz tenli bir kizdi.
+      Burnu biraz yamuk olsa da bu Ren\u2019nin cok hosuna gidiyordu. Kusur guzellik
+      katardi. Isabella da Ren\u2019nin kesinligine ve mantigina hayranlik duyuyordu.
+      Bazen ondan cok hoslaniyor bazen katlanamiyordu. Bu iki veya uc duyguyu ayni
+      adamda hissetmesi ve bunu anlamlandiramamasi onda garip bir cekim yaratiyordu.
+      Onu gorunce Ren isiga gecmek icin zorluyordu. Onun ardindan Ren ayni mucadeleyi
+      veriyordu. Isabella ile dalga gecmek onu kizdiracakti ve bu daha cok kahkaha
+      demekti. Onun oyle ciddi islerle iliskisi olmazdi. Alex, Anabelle ile ilk tanistiginda
+      Isabelle\u2019yi de Ren\u2019e yapmak istemisti. Sonucta onlar iki dosttu.
+      Sevgilileri neden oyle olmasin ki? Nitekim bu asla olmadi. Ancak Ren ve Isabelle
+      belli cekincelere ragmen birbirlerinden hoslanmaktaydi"
+  - Name: Cliff
+    Gender: Erkek
+    Origin: Ispanya
+    Height: 179 cm
+    Weight: 73 kg
+    Story: "Cliff, Ren\u2019den biraz daha kisa, saclarinin yani kazinmis ve kafasinin
+      yanindaki cizgi bir hat halinde kasina inen ergenlik caglarinin sonunda bir
+      cocuktu. Cetecilik meraki onun zaman icerisinde agrasif ve siddete meyilli
+      olmasini saglamisti. Kendisi icin istedigi seyler ugruna diger insanlara kotu
+      davranmaktan cekinmezdi. Aslinda cok yuzeysel ve tahmin edilebilir davranislar
+      sergiliyordu. Alex herhangi bir yanlislik ile karsilastiginda sesini cikartirdi.
+      Dogal olarak bu ikisi yan yana geldiginde sessizlik soz konusu bile degildi.
+      Cogu durumda Ren olmasa kavga ile sonuclanacagi kesin atismalar yasiyorlardi.
+      Hatta son seferinde kavga cikmis ve ikisi de fiziksel zarar gormuslerdi."
+  - Name: Adrian
+    Gender: Erkek
+    Origin: ABD
+    Height: 177 cm
+    Weight: 71 kg
+    Story: "Adrian, Anabelle\u2019ye kor kutuk asikti bu sebeple Alex\u2019e derin
+      bir nefret besliyordu. Yillar onde Alex\u2019ten once davranip Annabel\u2019e
+      icindeki bu sevgiden bahsetmis fakat karsilik alamamisti. Reddedilme icgudusu
+      ile kendini hep Alex\u2019ten daha az dikkat cekici buluyordu. Aslinda cogu
+      konuda ondan daha ustun oldugu soylenebilirdi. Zeki biriydi ama bunu iyi yonlerde
+      kullanmayi pek becerememisti. Yine de Alex\u2019i kendinden ustun gormesini
+      kimseye yansitmamayi, aksine sanki ondan daha ustunmus gibi gostermeye calisirdi.
+      Annabel\u2019inde surekli etrafinda bulunarak Alex\u2019ten ayrilmasi icin
+      bekliyor gibi bir tavir sergilerdi. Aslinda onun sorunu Alex degil, Annabel\u2019di.
+      Bunu yillarca fark etmemis olmamasi ise onun insanlar tarafindan surekli kotu
+      kisi olarak yorumlanmasina sebep olup durdu. "
+  - Name: Ezkiel
+    Gender: Erkek
+    Origin: Meksika
+    Height: 168 cm
+    Weight: 62 kg
+    Story: Tam bir akbaba. Zevkleri asagilik olarak tarif edilebilir. Negatif enerjiden
+      besleniyor denilebilir. Yine de bazi etik ve ahlaki sinirlara sahip, toplumun
+      onayi onun icin onemli. Bu sebeple genelde olaylari kendi sucu veya niyetini
+      belli edecek sekilde aktarmali. Korkak birisidir. Kendine herhangi bir acidan
+      zarar gelebilecek bir sey olmasindan kacinir. Tum bunlarin uzerine inandirmak
+      adina fazla konusur.
   NameText: {fileID: 7184058901823056831}
   GenderText: {fileID: 1355022059409569143}
   OriginText: {fileID: 4834080873311467355}
