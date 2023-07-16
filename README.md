@@ -134,7 +134,7 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 # Sprint 3
 - **Sprint Notları**: Son sprint olmasından dolayı ekibimiz için en yoğun sprint oldu. Hızlı aksiyon alabilmek ve özellikleri seri olarak entegre edebilmek için çoğunlukla birden fazla iletişim hattı üzerinden temasta kaldık bundan dolayı Daily Scrum yapımız biraz karıştı ancak süreç boyunca kullandığımız WhatsApp grubumuzun dökümünü aşağıda bulabilirsiniz.
 
-  - ![Notes](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/ed9d56752a55ef7d3515299295169c37772b5888/ProjectManagement/Sprint3Documents/WhatsApp%20Chat%20with%20BootCamp%20U22%20(1).txt)
+[Unity Team 22 Daily Scrum Records](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/ed9d56752a55ef7d3515299295169c37772b5888/ProjectManagement/Sprint3Documents/WhatsApp%20Chat%20with%20BootCamp%20U22%20(1).txt)
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 230 Puan
 
