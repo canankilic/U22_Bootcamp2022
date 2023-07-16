@@ -15,7 +15,7 @@ public class InfoPanelHandler : MonoBehaviour
     public TextMeshProUGUI WeightText;
     public TextMeshProUGUI StoryText;
 
-    void SetCharactedInfo(string Name)
+    public void SetCharactedInfo(string Name)
     {
         foreach (CharacterInfo character in characters)
         {

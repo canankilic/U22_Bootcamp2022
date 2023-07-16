@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DialogPanelHandler : MonoBehaviour
 {
-    public NPCName currentNPC = NPCName.Annabel;
+    public NPCName currentNPC = NPCName.Cliff;
 
     [SerializeField]
     private Sprite AnnabelIcon;

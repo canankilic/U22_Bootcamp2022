@@ -9,6 +9,7 @@ public class HUDController : MonoBehaviour
     public Animator EndPanelAnimator;
     public DialogPanelHandler DialogHandlerRef;
     public MissionGuideHandler MissionGuideRef;
+    public InfoPanelHandler InfoPanelRef;
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +20,6 @@ public class HUDController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ShowInfo();
-        }
-
         if (Input.GetKeyDown(KeyCode.B))
         {
             ShowDialog();
@@ -90,5 +86,21 @@ public class HUDController : MonoBehaviour
 
     public void SetDialogText(string DialogText){
         DialogHandlerRef.WriteText( DialogText );
+    }
+
+    public void UpdateNPC(NPCName targetNPC){
+        DialogHandlerRef.UpdateNPC(targetNPC);
+    }
+
+    public void NextMission(){
+        MissionGuideRef.UpdateMissionToNext();
+    }
+
+    public void SetCharacterInfo(string name){
+        InfoPanelRef.SetCharactedInfo(name);
+    }
+
+    public void SetMissionInfo(int order){
+        MissionGuideRef.SetMission(order);
     }
 }
