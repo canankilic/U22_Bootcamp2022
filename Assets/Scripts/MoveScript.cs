@@ -30,6 +30,7 @@ public class MoveScript : MonoBehaviour
 
     void Start()
     {
+        conversationState = ConversationState.Instance;
         rigi = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         dollyanim = Dolly.GetComponent<Animator>();
