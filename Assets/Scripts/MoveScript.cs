@@ -47,6 +47,8 @@ public class MoveScript : MonoBehaviour
     private bool isInInfo = false;
 
     public GameObject Cadde;
+    public GameObject VideoPlayerRef;
+    public GameObject VideoCanvasRef;
     
 
     void Start()
@@ -95,6 +97,12 @@ public class MoveScript : MonoBehaviour
 
         currentMovement = Mathf.Lerp(currentMovement, targetMovement, lerpTime);
         anim.SetFloat("Movement", currentMovement);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            VideoPlayerRef.SetActive(false);
+            VideoCanvasRef.SetActive(false);
+        }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
