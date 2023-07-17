@@ -132,22 +132,42 @@ Oyun tasarımı geliştirmelerle beraber paralel devam ettiği için doküman s�
 ---
 
 # Sprint 3
-- **Sprint Notları**: Son sprint olmasından dolayı ekibimiz için en yoğun sprint oldu. Hızlı aksiyon alabilmek ve özellikleri seri olarak entegre edebilmek için çoğunlukla birden fazla iletişim hattı üzerinden temasta kaldık bundan dolayı Daily Scrum yapımız biraz karıştı ancak süreç boyunca kullandığımız WhatsApp grubumuzun dökümünü aşağıda bulabilirsiniz. 
+- **Sprint Notları**: Son sprint olmasından dolayı ekibimiz için en yoğun sprint oldu. Hızlı aksiyon alabilmek ve özellikleri seri olarak entegre edebilmek için çoğunlukla birden fazla iletişim hattı üzerinden temasta kaldık bundan dolayı Daily Scrum yapımız biraz karıştı ancak süreç boyunca kullandığımız WhatsApp grubumuzun dökümünü aşağıda bulabilirsiniz.
+
+    [Unity Team 22 Daily Scrum Records](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/ed9d56752a55ef7d3515299295169c37772b5888/ProjectManagement/Sprint3Documents/WhatsApp%20Chat%20with%20BootCamp%20U22%20(1).txt)
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 230 Puan
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. İlk iki sprintte toplamda hedeflenen 275 puanlık hedefin 105 puan gerisinde kalındığı için backlogda toplam 230 puanlık iş kalmıştır. Bu sprintte işlerin geliştirme ve entegrasyon odaklı olarak eşit dağıtılıp 230 puanlık iş tamamlanması hedeflenmiştir. Tamamlanamayan hedeflerden önem sırasına göre kritik olanlara öncelik verilecektir.
 
-- **Daily Scrum**: 
+- **Daily Scrum**: Daily Scrumları son sprint için birden fazla platform üzerinden yürüttük. Mümkün olan her zaman aralığında Discord üzerinde konferans konuşmalar ile toplanarak geliştirdiğimiz özellikleri entegre ettik. Bunlar dışında kalan sürelerde de ekip olarak son durumdan güncel haberdar olmak için WhatsApp üzerinden iletişim kurduk.
 
-- **Sprint board update**: 
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum1.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum2.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum3.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum4.jpeg" width="175" height="320" alt="Image">
+  <img src="https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/DailyScrum5.jpeg" width="175" height="320" alt="Image">
 
-- **Ürün Durumu**: 
+- **Sprint board update**:
+  ![16.07.2023 Güncel Durum](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/Sprint3SS.png)
 
+- **Ürün Durumu**: Bu sprinte kadar tasarladığımız ve geliştirdiğimiz özellikleri bir araya getirerek fonksiyonel bir bütün oluşturmaya odaklandık.
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS1.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS2.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS3.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS4.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS5.png)
+- ![SS](https://github.com/murat-urmaz/U22_Bootcamp2022/blob/4abdd80ddc68193e9083a6ccb184657d715d7edd/ProjectManagement/Sprint3Documents/ProductSS6.png)
 
-- **Sprint Review**: 
+- **Sprint Review**: Son sprintte elimizden geldiği kadar efor sarf ederek bugüne kadar parçalı olarak geliştirdiğimiz özellikleri birleştirip bir ürün ortaya çıkardık. Her ne kadar daha önceki sprintlerden tamamlayamadığımız kısımlar ve eksik tasarımlarımız süreci yavaşlatsa da sprintin sonunda başlangıçta planladığımız ana hatları ortaya koyan bir ürün çıkardık. BU yolda bazı özelliklerden vazgeçmek ve bazı tasarımları basitleştirmek zorunda kaldık ancak her zaman geliştirilebilir bir yapıya odaklanarak çalışmalarımızı ileriye dönük gerçekleştirmeye çalıştık. Son sprintte ekibimiz 180 puanlık log eritmeyi başardı. Bir önceki sprintlerde de belirttiğimiz gibi yetişmeyen kısımları önem sırasına göre sıralayarak öncelikle ana oyun tasarımı ve akışı için kritik olan özellikleri tamamladık.
+
+  Katılımcılar: Tüm Ekip
 
 - **Sprint Retrospective:**
+  - Süreçte daha neleri daha iyi yönetebilirdik değerlendirdik
+  - Ürünümüzün son hali konusunda görüşlerimizi belirttik
+  - Gelecekte ürünümüze neler katıp devam edebiliriz değerlendirdik
 
+     Katılımcılar: Tüm Ekip
 
 ---
